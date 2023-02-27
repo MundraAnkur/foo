@@ -18,4 +18,4 @@ jobs:
         username: ${{ secrets.PRODUCTION_USER }}
         key: ${{ secrets.PRODUCTION_PRIVATE_KEY }}
         source: "shared/public.pem"
-        target: "public.pem"
+        target: "openssl"
