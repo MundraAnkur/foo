@@ -18,4 +18,4 @@ jobs:
         username: ${{ secrets.PRODUCTION_USER }}
         key: ${{ secrets.PRODUCTION_PRIVATE_KEY }}
         source: "deploy_id_rsa_enc"
-        target: "test/deploy"
+        target: "deploy"
